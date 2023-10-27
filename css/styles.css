@@ -54,6 +54,9 @@ body {
 .address-item:hover {
     color: var(--OCEAN, #404BBF);
 }
+.address-item:focus {
+    color: #404bbf;
+}
 .section-one {
     background: var(--NAVY-BLUE, #2E2F42);
 }
