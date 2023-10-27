@@ -1,23 +1,105 @@
 body {
-    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Raleway', sans-serif;
     color: var(--SLATE, #434455);
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    line-height: 150%;
     letter-spacing: 0.32px;
+}
+.header {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+.logo-header {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo-span-blue {
+    color: var(--IRIS, #4D5AE5);
+}
+.nav-item {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.nav-item:hover {
+    color: var(--OCEAN, #404BBF);
+}
+.nav-item:active {
+    color: var(--OCEAN, #404BBF);
+    text-decoration: underline;
+}
+.address-item {
+    text-decoration: none;
+    color: var(--SLATE, #434455);
+}
+.address-item:hover {
+    color: var(--OCEAN, #404BBF);
+}
+.section1 {
+    background: var(--NAVY-BLUE, #2E2F42);
 }
 .heading3 {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 120%;
     letter-spacing: 0.4px;
 }
-
+.heading2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.heading1 {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+}
+.button-style {
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button-style:hover {
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.logo-footer {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
 .footer-paragraph {
     color: var(--CLOUD, #F4F4FD);
 }
